@@ -6,6 +6,7 @@ pipeline
 
     tools {
         maven 'myMaven'
+        git 'Default'
     }
 
     stages{
