@@ -4,6 +4,10 @@ pipeline
         label 'DevServer'
     }
 
+    tools {
+        maven 'myMaven'
+    }
+
     stages{
         stage("build"){
             steps {
